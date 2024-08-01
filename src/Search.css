@@ -1,0 +1,1202 @@
+/* 검색 */
+
+.search {
+  position: absolute;
+  width: 1713px;
+  height: 278px;
+  left: 100px;
+  top: 100px;
+}
+
+/* Group 19 */
+
+.search_group_19 {
+  position: absolute;
+  width: 1713px;
+  height: 278px;
+  left: 1px;
+  top: 60px;
+}
+
+/* Rectangle 25 */
+
+.search_rec_25 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 140px;
+  height: 55px;
+  left: 800px;
+  top: 210px;
+  background: #ffffff;
+  border: 2px solid #6c6c6c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  cursor: pointer; /* Change cursor to pointer on hover */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+
+  color: #6c6c6c;
+}
+
+.search_rec_25.clicked {
+  background: red;
+}
+/* 검색 */
+
+.search_2 {
+  position: absolute;
+  width: 140px;
+  height: 51px;
+  left: 35px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #6c6c6c;
+}
+
+/* Group 22 */
+
+.search_group_22 {
+  position: absolute;
+  width: 1713px;
+  height: 202px;
+  left: 1px;
+  top: 50px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Group 18 */
+
+.search_group_18 {
+  position: absolute;
+  width: 1713px;
+  height: 202px;
+  left: 1px;
+  top: 1px;
+}
+
+/* Rectangle 23 */
+
+.search_rec_23 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1713px;
+  height: 202px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border: 2px solid #6c6c6c;
+  border-radius: 15px;
+}
+
+/* Line 1 */
+
+.search_line_1 {
+  position: absolute;
+  width: 1709.12px;
+  height: 0px;
+  left: 3spx;
+  top: 65px;
+
+  border: 2px solid #d9d9d9;
+}
+
+/* Line 2 */
+
+.search_line_2 {
+  position: absolute;
+  width: 1709.12px;
+  height: 0px;
+  left: 3px;
+  top: 135px;
+
+  border: 2px solid #d9d9d9;
+}
+
+/* Group 8 */
+
+.search_group_8 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1480px;
+  top: 80px;
+}
+
+/* 파손 */
+
+.search_damaged {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 15 */
+.search_group_15 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1250px;
+  top: 80px;
+}
+
+/* 오염 */
+.search_pollution {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 10 */
+
+.search_rec_10 {
+  position: absolute;
+  width: 254.46px;
+  height: 40px;
+  left: 1040px;
+  top: 13px;
+}
+
+/* 금월 */
+
+.search_this_month {
+  position: absolute;
+  width: 254.46px;
+  height: 35px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 21 */
+
+.search_group_21 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1250px;
+  top: 13px;
+}
+
+/* 📅 */
+
+.search_calender {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 20 */
+
+.search_group_20 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1480px;
+  top: 13px;
+}
+
+/* 📅 */
+
+.search_calender_2 {
+  position: absolute;
+  width: 165px;
+  height: 35px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Line 3 */
+
+.search_line_3 {
+  position: absolute;
+  width: 193px;
+  height: 0px;
+  left: 240px;
+  top: 101px;
+
+  border: 2px solid #d9d9d9;
+  transform: rotate(90deg);
+}
+
+/* 기간 설정 */
+
+.search_time_setting {
+  position: absolute;
+  width: 277.74px;
+  height: 37px;
+  left: 70px;
+  top: 13px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 배터리 유형 */
+
+.search_battery_type {
+  position: absolute;
+  width: 277.74px;
+  height: 37px;
+  left: 70px;
+  top: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 카메라 번호 */
+
+.search_camera_num {
+  position: absolute;
+  width: 277.74px;
+  height: 37px;
+  left: 70px;
+  top: 150px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Group 8 */
+
+.search_group_8_3 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 550px;
+  top: 13px;
+}
+
+/* 최신 */
+.search_new {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(29, 10, 10, 0.25));
+  border-radius: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+
+  color: #6c6c6c;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.search_rec_24_5.clicked {
+  color: #9c17c8;
+}
+/* Group 8 */
+
+.search_group_8_1 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1040px;
+  top: 80px;
+}
+
+/* 불량 */
+
+.search_faulty {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_6 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 17 */
+
+.search_group_17 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 800px;
+  top: 80px;
+}
+
+/* 정상 */
+
+.search_normal {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_7 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 11 */
+
+.search_group_11 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 550px;
+  top: 80px;
+}
+
+/* 전체 */
+
+.search_all {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_8 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 11 */
+
+.search_group_11_1 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1040px;
+  top: 150px;
+}
+
+/* 3 */
+
+.search_3 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_9 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 16 */
+
+.search_group_16 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 800px;
+  top: 150px;
+}
+
+/* 2 */
+
+.search_2_1 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_10 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 13 */
+.search_group_13 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 550px;
+  top: 150px;
+}
+
+/* 1 */
+
+.search_1 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_11 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+/* Group 9 */
+
+.search_group_9 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 800px;
+  top: 13px;
+}
+
+/* 금주 */
+
+.search_abstinence {
+  position: absolute;
+  width: 254.46px;
+  height: 35px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+
+  color: #6c6c6c;
+}
+
+/* Rectangle 24 */
+
+.search_rec_24_12 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 1px;
+  top: 1px;
+
+  border: 2px solid #6c6c6c;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+.search_rec_24_12.clicked {
+  color: #9c17c8;
+}
+/* ~ */
+
+.search_wave {
+  position: absolute;
+  width: 79.83px;
+  height: 40px;
+  left: 1435px;
+  top: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 결과 */
+
+.search_result {
+  position: absolute;
+  width: 1713px;
+  height: 504px;
+  left: 100px;
+  top: 500px;
+}
+
+/* 결과 */
+.search_result_1 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 98px;
+  top: 490px;
+}
+
+/* Rectangle 26 */
+
+.search_rec_26 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1713px;
+  height: 504px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border: 2px solid #6c6c6c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+/* Line 5 */
+
+.search_line_5 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 70px;
+
+  border: 2px solid #6c6c6c;
+}
+/* Line 7 */
+
+.search_line_7 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 130px;
+
+  border: 2px solid #e3e3e3;
+}
+
+/* Line 8 */
+.search_line_8 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 190px;
+
+  border: 2px solid #e3e3e3;
+}
+
+/* Line 9 */
+
+.search_line_9 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 250px;
+
+  border: 2px solid #e3e3e3;
+}
+
+/* Line 10 */
+.search_line_10 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 310px;
+
+  border: 2px solid #e3e3e3;
+}
+
+/* Line 11 */
+
+.search_line_11 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 370px;
+
+  border: 2px solid #e3e3e3;
+}
+
+/* Line 12 */
+.search_line_12 {
+  position: absolute;
+  width: 1709px;
+  height: 0px;
+  left: 1px;
+  top: 430px;
+
+  border: 2px solid #e3e3e3;
+}
+/* Line 4 */
+.search_line_4 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* Line 13 */
+
+.search_line_13 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 250px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* Line 14 */
+.search_line_14 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 500px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* Line 15 */
+
+.search_line_15 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 750px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* Line 16 */
+
+.search_line_16 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 1000px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* Line 17 */
+
+.search_line_17 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 1250px;
+  top: 250px;
+
+  border: 2px solid #6c6c6c;
+  transform: rotate(90deg);
+}
+
+/* 번호 */
+
+.search_num {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 100px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* ID */
+.search_id {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 360px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 날짜 */
+.search_date {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 600px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 판정 */
+
+.search_judgment {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 840px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 결함유형 */
+.search_faulty_type {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 1070px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 카메라 */
+
+.search_camera {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 1330px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 상세정보 */
+
+.search_detail {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  left: 1560px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}

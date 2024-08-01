@@ -1,0 +1,549 @@
+/* 개별 그래프 */
+
+.individual_graph {
+  position: absolute;
+  width: 1398px;
+  height: 712px;
+  left: 40px;
+  top: 40px;
+}
+
+/* Group 28 */
+
+.envir_group_28 {
+  position: absolute;
+  width: 1398px;
+  height: 712px;
+  left: 1px;
+  top: 1px;
+}
+
+/* Group 23 */
+
+.envir_group_23 {
+  position: absolute;
+  width: 1398px;
+  height: 712px;
+  left: 101px;
+  top: 339px;
+}
+
+/* Rectangle 28 */
+
+.envir_rect_28 {
+  position: absolute;
+  width: 678.02px;
+  height: 335.12px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Rectangle 31 */
+
+.envir_rect_31 {
+  position: absolute;
+  width: 678.02px;
+  height: 335.12px;
+  left: 719.4px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Rectangle 30 */
+
+.envir_rect_30 {
+  position: absolute;
+  width: 678.02px;
+  height: 335.12px;
+  left: 1px;
+  top: 375px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Rectangle 29 */
+
+.envir_rect_29 {
+  position: absolute;
+  width: 678.02px;
+  height: 335.12px;
+  left: 719.4px;
+  top: 375px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* ▽ 일별 온도 */
+
+.glance_temp {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 10px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.temp_div {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: 40px;
+  top: 60px;
+  background-color: red;
+}
+.temp_chart {
+  position: absolute;
+  left: 1px;
+  top: 60px;
+}
+/* ▽ 일별 습도 */
+
+.glance_humi {
+  position: absolute;
+  width: 176.38px;
+  height: 70.46px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* ▽ 일별 조도 */
+
+.glance_illum {
+  position: absolute;
+  width: 176.38px;
+  height: 70.46px;
+  left: 10px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* ▽ 일별 가스 */
+
+.glance_gas {
+  position: absolute;
+  width: 176.38px;
+  height: 70.46px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* image 1 */
+
+.envir_image_1 {
+  position: absolute;
+  width: 556px;
+  height: 251px;
+  left: 40px;
+  top: 60px;
+
+  background: rgb(207, 26, 6) /*url(/tvt_badge_re.JPG)*/;
+}
+
+/* image 2 */
+
+.envir_image_2 {
+  position: absolute;
+  width: 556px;
+  height: 251px;
+  left: 740px;
+  top: 60px;
+
+  background: rgb(9, 137, 223) /*url(/tvt_badge_re.JPG)*/;
+}
+
+/* image 3 */
+
+.envir_image_3 {
+  position: absolute;
+  width: 556px;
+  height: 251px;
+  left: 30px;
+  top: 450px;
+
+  background: rgb(92, 49, 207) /*url(/tvt_badge_re.JPG)*/;
+}
+
+/* image 4 */
+.envir_image_4 {
+  position: absolute;
+  width: 556px;
+  height: 251px;
+  left: 750px;
+  top: 450px;
+
+  background: yellow /*url(/tvt_badge_re.JPG)*/;
+}
+
+/* 전체 수치 */
+
+.entire_amout {
+  position: absolute;
+  width: 1712px;
+  height: 165px;
+  left: 101px;
+  top: 133px;
+}
+
+/* Rectangle 27 */
+
+.envir_rect_27 {
+  position: absolute;
+  width: 1712px;
+  height: 165px;
+  left: 100px;
+  top: 120px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Group 24 */
+
+.envir_group_24 {
+  position: absolute;
+  width: 220px;
+  height: 97px;
+  left: 150px;
+  top: 30px;
+  background-color: red;
+}
+
+/* 20°C */
+
+.envir_20 {
+  position: absolute;
+  width: 196px;
+  height: 97px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+
+  color: #000000;
+}
+
+/* 🌡️ */
+
+.envir_temp_emoji {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Group 25 */
+
+.envir_group_25 {
+  position: absolute;
+  width: 200px;
+  height: 97px;
+  left: 500px;
+  top: 30px;
+  background-color: blue;
+}
+
+/* 14% */
+
+.envir_14 {
+  position: absolute;
+  width: 196px;
+  height: 97px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 💧 */
+.envir_water_emoji {
+  position: absolute;
+  width: 59px;
+  height: 60px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Group 26 */
+
+.envir_group_26 {
+  position: absolute;
+  width: 260px;
+  height: 97px;
+  left: 800px;
+  top: 30px;
+}
+
+/* 80% */
+.envir_80 {
+  position: absolute;
+  width: 196px;
+  height: 97px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ff4f4f;
+  background-color: yellow;
+}
+
+/* 💡 */
+
+.envir_light_imoji {
+  position: absolute;
+  width: 70px;
+  height: 74px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Group 27 */
+
+.envir_group_27 {
+  position: absolute;
+  width: 230px;
+  height: 97px;
+  left: 1100px;
+  top: 30px;
+  background-color: orange;
+}
+
+/* 0.0% */
+
+.envir_0 {
+  position: absolute;
+  width: 196px;
+  height: 97px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* ☣️ */
+.envir_hot_emoji {
+  position: absolute;
+  width: 101px;
+  height: 96px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 최적화 지수 */
+
+.optimization_index {
+  position: absolute;
+  width: 268.53px;
+  height: 712px;
+  left: 1545px;
+  top: 339px;
+
+  background-color: pink;
+}
+
+/* Rectangle 32 */
+
+.envir_rect_32 {
+  position: absolute;
+  width: 268px;
+  height: 712px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 최적화 지수 */
+
+.envir_optimization_index {
+  position: absolute;
+  width: 206px;
+  height: 59px;
+  left: 40px;
+  top: 640px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Line 18 */
+
+.envir_line_18 {
+  position: absolute;
+  width: 260px;
+  height: 2.91px;
+  left: 1px;
+  top: 615px;
+
+  border: 5px solid #d9d9d9;
+  transform: rotate(0.62deg);
+}
+
+/* Rectangle 33 */
+.envir_rect_33 {
+  position: absolute;
+  width: 111px;
+  height: 536px;
+  left: 75px;
+  top: 80px;
+
+  background: #2daa8c;
+  border-radius: 13px;
+}
+
+/* 100% */
+
+.envir_100 {
+  position: absolute;
+  width: 134px;
+  height: 41px;
+  left: 85px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}

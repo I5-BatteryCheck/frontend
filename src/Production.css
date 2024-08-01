@@ -1,0 +1,692 @@
+/* 카메라 컨테이너 */
+
+.produc_camera_container {
+  position: absolute;
+  width: 1337px;
+  height: 848px;
+  left: 73px;
+  top: 147px;
+}
+
+/* Rectangle 4 */
+
+.produc_rectangle_4 {
+  position: absolute;
+  width: 1337px;
+  height: 848px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Rectangle 10 */
+
+.produc_rectangle_10 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 50px;
+  top: 500px;
+
+  background: #d9d9d9;
+}
+
+/* Rectangle 11 */
+
+.produc_rectangle_11 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 500px;
+  top: 100px;
+
+  background: #d9d9d9;
+}
+
+/* Rectangle 13 */
+
+.produc_rectangle_13 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 950px;
+  top: 100px;
+
+  background: #d9d9d9;
+}
+
+/* Rectangle 12 */
+
+.produc_rectangle_12 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 500px;
+  top: 500px;
+
+  background: #d9d9d9;
+}
+
+/* Rectangle 14 */
+
+.produc_rectangle_14 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 950px;
+  top: 500px;
+
+  background: #d9d9d9;
+}
+
+/* Rectangle 15 */
+
+.produc_rectangle_15 {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 50px;
+  top: 100px;
+
+  background: #d9d9d9;
+}
+
+.cam1_img {
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 1px;
+  top: 1px;
+}
+
+/* CAM_1 */
+
+.produc_cam_1 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 50px;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* CAM_2 */
+
+.produc_cam_2 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 500px;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* CAM_3 */
+
+.produc_cam_3 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 950px;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* CAM_1 */
+
+.produc_cam_1_1 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 50px;
+  top: 450px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* CAM_2 */
+
+.produc_cam_1_2 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 500px;
+  top: 450px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* CAM_3 */
+
+.produc_cam_1_3 {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 950px;
+  top: 450px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+
+/* 작동시간 */
+
+.produc_active_time {
+  position: absolute;
+  width: 406px;
+  height: 73px;
+  left: 1468px;
+  top: 285px;
+}
+
+/* Rectangle 6 */
+
+.produc_rectangle_6 {
+  position: absolute;
+  width: 406px;
+  height: 73px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 작동 시간 00:00 */
+
+.produc_active_time_0 {
+  position: absolute;
+  width: 197px;
+  height: 71px;
+  left: 150px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  color: #000000;
+}
+
+/* 작동시간 */
+
+.produc_start {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 1500px;
+  top: 370px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.produc_end {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 1680px;
+  top: 370px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 목표 달성 */
+
+.produc_goal {
+  position: absolute;
+  width: 406px;
+  height: 125px;
+  left: 1468px;
+  top: 147px;
+}
+
+/* Rectangle 8 */
+
+.produc_rectangle_8 {
+  position: absolute;
+  width: 406px;
+  height: 125px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 목표: _____________ */
+
+.produc_goal_sentence {
+  position: absolute;
+  width: 238px;
+  height: 43px;
+  left: 30px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.custom-input {
+  width: 150px;
+  height: 50px;
+  border: 1px solid transparent;
+  box-sizing: border-box; /* ensures padding is included in the total width and height */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px; /* 필요에 따라 패딩 조정 */
+}
+
+/* 달성 : _____________ */
+
+.produc_achieve_sentence {
+  position: absolute;
+  width: 238px;
+  height: 43px;
+  left: 30px;
+  top: 60px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* Rectangle 16 */
+
+.produc_rectangle_16 {
+  position: absolute;
+  width: 112px;
+  height: 57px;
+  left: 250px;
+  top: 35px;
+
+  background: #d9d9d9;
+  border-radius: 15px;
+  border: 1px solid transparent;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s ease; /* 부드러운 전환 효과 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
+}
+
+.produc_rectangle_16:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* 마우스를 올렸을 때 그림자 */
+  transform: translateY(-2px); /* 약간 위로 이동하여 볼록한 효과 */
+}
+
+.produc_rectangle_16:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 눌렀을 때 그림자 */
+  transform: translateY(2px); /* 약간 아래로 이동하여 눌린 효과 */
+}
+
+/* 달성현황 */
+
+.produc_achieve_state {
+  position: absolute;
+  width: 406px;
+  height: 208px;
+  left: 1468px;
+  top: 415px;
+}
+
+/* Rectangle 5 */
+
+.produc_rectangle_5 {
+  position: absolute;
+  width: 406px;
+  height: 208px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 달성 현황 */
+
+.produc_achieve_state_2 {
+  position: absolute;
+  width: 117px;
+  height: 55px;
+  left: 210px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 34.4% */
+
+.produc_34 {
+  position: absolute;
+  width: 244px;
+  height: 107px;
+  left: 170px;
+  top: 70px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 73px;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+/* image 3 */
+.produc_image_3 {
+  position: absolute;
+  width: 129px;
+  height: 134px;
+  left: 20px;
+  top: 30px;
+
+  background: skyblue /*url(image.png)*/;
+}
+
+/* 불량비율 */
+
+.proudc_fault_rate {
+  position: absolute;
+  width: 406px;
+  height: 90px;
+  left: 1468px;
+  top: 643px;
+}
+
+/* Rectangle 7 */
+
+.produc_rectangle_7 {
+  position: absolute;
+  width: 406px;
+  height: 90px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 불량 비율 */
+.proudc_fault_rate_2 {
+  position: absolute;
+  width: 105px;
+  height: 41px;
+  left: 30px;
+  top: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* Rectangle 17 */
+
+.produc_rectangle_17 {
+  position: absolute;
+  width: 256px;
+  height: 29px;
+  left: 20px;
+  top: 50px;
+
+  background: #6fe5ff;
+}
+
+/* Rectangle 18 */
+.produc_rectangle_18 {
+  position: absolute;
+  width: 110px;
+  height: 29px;
+  left: 277px;
+  top: 50px;
+
+  background: #ff4f4f;
+}
+
+/* 70% */
+
+.produc_70 {
+  position: absolute;
+  width: 60px;
+  height: 19px;
+  left: 120px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 30% */
+
+.produc_30 {
+  position: absolute;
+  width: 72px;
+  height: 15px;
+  left: 310px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+/* 생산 환경 */
+
+.produc_environment {
+  position: absolute;
+  width: 406px;
+  height: 229px;
+  left: 1468px;
+  top: 766px;
+}
+
+/* Rectangle 9 */
+
+.produc_rectangle_9 {
+  position: absolute;
+  width: 406px;
+  height: 229px;
+  left: 1px;
+  top: 1px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* 온도: 00 */
+.produc_temperature {
+  position: absolute;
+  width: 146px;
+  height: 62px;
+  left: 50px;
+  top: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 대기: 00 */
+
+.produc_air {
+  position: absolute;
+  width: 146px;
+  height: 62px;
+  left: 250px;
+  top: 140px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 조도: 00 */
+
+.produc_illuminance {
+  position: absolute;
+  width: 146px;
+  height: 62px;
+  left: 50px;
+  top: 140px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 습도: 00 */
+
+.produc_humidity {
+  position: absolute;
+  width: 146px;
+  height: 62px;
+  left: 250px;
+  top: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* 작동시간 */
+
+.produc_active_time_1 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+}
