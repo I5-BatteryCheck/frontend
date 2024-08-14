@@ -23,7 +23,6 @@ const VibrationChart = () => {
         </div>
       </div>
       <div className="gas_chart">
-        {/* <Bar data={data} options={options} /> */}
         <BrushBarChart />
       </div>
     </>

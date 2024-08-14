@@ -13,7 +13,7 @@ const GoalChart = (props) => {
   const rate = (batteryId / quantity) * 100;
 
   const data = {
-    labels: ['Rate', 'Remaining'],
+    labels: ['Production rate', 'Remaining'],
     datasets: [
       {
         label: 'My First Dataset',

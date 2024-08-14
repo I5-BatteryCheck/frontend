@@ -33,8 +33,8 @@ const MainDefectChart = () => {
     fetchData(); // 처음 로드 시 데이터 가져오기
 
     const intervalId = setInterval(() => {
-      fetchData(); // 5초마다 데이터 갱신
-    }, 5000);
+      fetchData(); // 2초마다 데이터 갱신
+    }, 2000);
 
     // 컴포넌트 언마운트 시 interval 정리
     return () => clearInterval(intervalId);

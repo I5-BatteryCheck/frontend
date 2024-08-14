@@ -21,10 +21,6 @@ const OperationTimeChart = () => {
     };
 
     fetchData(); // 초기 데이터 로드
-
-    const intervalId = setInterval(fetchData, 2000); // 2초마다 데이터 갱신
-
-    return () => clearInterval(intervalId); // 컴포넌트 언마운트 시 interval 정리
   }, []); // 빈 배열을 의존성으로 전달하여 컴포넌트가 처음 마운트될 때만 실행
 
   const data = frequencies.map((frequency, index) => ({

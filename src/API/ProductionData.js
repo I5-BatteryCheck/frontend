@@ -23,7 +23,7 @@ const ProductionData = () => {
 
     fetchBatteryStatus(); // Initial fetch
 
-    const intervalId = setInterval(fetchBatteryStatus, 5000); // Fetch every 5 seconds
+    const intervalId = setInterval(fetchBatteryStatus, 1000); // Fetch every 1 seconds
 
     return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, [dispatch]);
