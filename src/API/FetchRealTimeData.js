@@ -27,11 +27,9 @@ const FetchRealTimeData = () => {
         setTemp(data.Temperature);
         setHumidity(data.humidity);
         setLightLevel(data.lightLevel);
-        const gas = parseFloat(data.gas); // 문자열을 부동 소수점 숫자로 변환
-        const result = ((gas / 4500) * 100).toFixed(1); // 변환된 값을 사용하여 계산
-        setGas(result);
+        setGas(data.gas);
 
-        if (result > 40) {
+        if (data.gas > 40) {
           setShowModal(true);
         } else {
           setShowModal(false);
@@ -54,7 +52,7 @@ const FetchRealTimeData = () => {
     <>
       <div className="envir_rect_27">
         <div className="envir_group_24">
-          {temp > 28 || temp < 20 ? (
+          {temp > 28 ? (
             <div className="envir_20_1">
               🌡️
               <br />
@@ -69,7 +67,7 @@ const FetchRealTimeData = () => {
           )}
         </div>
         <div className="envir_group_25">
-          {humidity <= 30 ? (
+          {humidity > 75 ? (
             <div className="envir_14_1">
               💧
               <br />

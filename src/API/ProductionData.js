@@ -32,7 +32,9 @@ const ProductionData = () => {
 
   return (
     <>
-      <div className="produc_achieve_sentence">생산량 : {batteryId}</div>
+      <div className="produc_achieve_sentence">
+        생산량 : <span style={{ marginLeft: '21px' }}>{batteryId}</span>
+      </div>
     </>
   );
 };

@@ -22,7 +22,7 @@ const EfficiencyChart = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.137.62:5010/sensor_value'); // 라즈베리파이의 IP 및 엔드포인트에 맞게 수정
+        const response = await axios.get('http://192.168.137.51:5010/sensor_value'); // 라즈베리파이의 IP 및 엔드포인트에 맞게 수정
         const data = response.data;
         setTemp(data.Temperature);
         setHumidity(data.humidity);
@@ -37,9 +37,9 @@ const EfficiencyChart = () => {
 
     fetchData(); // 초기 데이터 로드
 
-    // const intervalId = setInterval(fetchData, 10000); // 10초마다 데이터 갱신
+    const intervalId = setInterval(fetchData, 200); // ..2초마다 데이터 갱신
 
-    // return () => clearInterval(intervalId); // 컴포넌트 언마운트 시 interval 정리
+    return () => clearInterval(intervalId); // 컴포넌트 언마운트 시 interval 정리
   }, []);
 
   //라즈베리에서 온습도 코드 끝

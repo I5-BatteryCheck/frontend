@@ -53,9 +53,7 @@ const Production = () => {
         setTemp(data.Temperature);
         setHumidity(data.humidity);
         setLightLevel(data.lightLevel);
-        const gas = parseFloat(data.gas); // 문자열을 부동 소수점 숫자로 변환
-        const result = ((gas / 4500) * 100).toFixed(1); // 변환된 값을 사용하여 계산
-        setGas(result);
+        setGas(data.gas);
 
         if (data.Temperature > 28) {
           setShowModal(true);
@@ -143,7 +141,7 @@ const Production = () => {
         <div className="produc_temperature">온도: {temp}°C</div>
         <div className="produc_air">가스: {gas}%</div>
         <div className="produc_illuminance">조도: {lightLevel}lx</div>
-        <div className="produc_humidity">습도: %{humidity}</div>
+        <div className="produc_humidity">습도: {humidity}%</div>
       </div>
       {showModal && <Modal />}
     </>
