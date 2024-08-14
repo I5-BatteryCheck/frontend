@@ -7,15 +7,16 @@
   left: 100px;
   top: 100px;
 }
-
 /* Group 19 */
 
 .search_group_19 {
   position: absolute;
   width: 1713px;
-  height: 278px;
+  height: 315px;
   left: 1px;
   top: 60px;
+
+  background-color: yellow;
 }
 
 /* Rectangle 25 */
@@ -27,7 +28,7 @@
   width: 140px;
   height: 55px;
   left: 800px;
-  top: 210px;
+  top: 268px;
   background: #ffffff;
   border: 2px solid #6c6c6c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -47,9 +48,6 @@
   color: #6c6c6c;
 }
 
-.search_rec_25.clicked {
-  background: red;
-}
 /* 검색 */
 
 .search_2 {
@@ -76,7 +74,7 @@
 .search_group_22 {
   position: absolute;
   width: 1713px;
-  height: 202px;
+  height: 260px;
   left: 1px;
   top: 50px;
 
@@ -88,7 +86,7 @@
 .search_group_18 {
   position: absolute;
   width: 1713px;
-  height: 202px;
+  height: 260px;
   left: 1px;
   top: 1px;
 }
@@ -100,7 +98,7 @@
 
   position: absolute;
   width: 1713px;
-  height: 202px;
+  height: 260px;
   left: 1px;
   top: 1px;
 
@@ -133,35 +131,23 @@
   border: 2px solid #d9d9d9;
 }
 
+.search_line_2_1 {
+  position: absolute;
+  width: 1709.12px;
+  height: 0px;
+  left: 3px;
+  top: 198px;
+
+  border: 2px solid #d9d9d9;
+}
 /* Group 8 */
 
 .search_group_8 {
   position: absolute;
   width: 158px;
   height: 40px;
-  left: 1480px;
-  top: 80px;
-}
-
-/* 파손 */
-
-.search_damaged {
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #6c6c6c;
+  left: 800px;
+  top: 150px;
 }
 
 /* Rectangle 24 */
@@ -175,28 +161,9 @@
   left: 1px;
   top: 1px;
 
-  border: 2px solid #6c6c6c;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 5px;
-}
+  cursor: pointer; /* Change cursor to pointer on hover */
 
-/* Group 15 */
-.search_group_15 {
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1250px;
-  top: 80px;
-}
-
-/* 오염 */
-.search_pollution {
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
+  color: #6c6c6c;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -204,9 +171,25 @@
   line-height: 29px;
   display: flex;
   align-items: center;
+  justify-content: center; /* Center the text horizontally */
   text-align: center;
 
-  color: #6c6c6c;
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+.search_rec_24.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
+}
+/* Group 15 */
+.search_group_15 {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 550px;
+  top: 150px;
 }
 
 /* Rectangle 24 */
@@ -220,30 +203,9 @@
   left: 1px;
   top: 1px;
 
-  border: 2px solid #6c6c6c;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 5px;
-}
+  cursor: pointer; /* Change cursor to pointer on hover */
 
-/* Group 10 */
-
-.search_rec_10 {
-  position: absolute;
-  width: 254.46px;
-  height: 40px;
-  left: 1040px;
-  top: 13px;
-}
-
-/* 금월 */
-
-.search_this_month {
-  position: absolute;
-  width: 254.46px;
-  height: 35px;
-  left: 1px;
-  top: 1px;
-
+  color: #6c6c6c;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -251,34 +213,26 @@
   line-height: 29px;
   display: flex;
   align-items: center;
+  justify-content: center; /* Center the text horizontally */
   text-align: center;
-
-  color: #6c6c6c;
-}
-
-/* Rectangle 24 */
-
-.search_rec_24_2 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
 
   border: 2px solid #6c6c6c;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
 }
 
+.search_rec_24_1.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
+}
+
 /* Group 21 */
 
 .search_group_21 {
   position: absolute;
-  width: 158px;
+  width: 270px;
   height: 40px;
-  left: 1250px;
+  left: 550px;
   top: 13px;
 }
 
@@ -286,7 +240,7 @@
 
 .search_calender {
   position: absolute;
-  width: 158px;
+  width: 270px;
   height: 40px;
   left: 1px;
   top: 1px;
@@ -294,13 +248,17 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   display: flex;
   align-items: center;
   text-align: center;
 
   color: #6c6c6c;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
 }
 
 /* Rectangle 24 */
@@ -323,9 +281,9 @@
 
 .search_group_20 {
   position: absolute;
-  width: 165px;
+  width: 270px;
   height: 40px;
-  left: 1480px;
+  left: 1000px;
   top: 13px;
 }
 
@@ -333,21 +291,25 @@
 
 .search_calender_2 {
   position: absolute;
-  width: 165px;
-  height: 35px;
+  width: 270px;
+  height: 40px;
   left: 1px;
   top: 1px;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   display: flex;
   align-items: center;
   text-align: center;
 
   color: #6c6c6c;
+
+  border: 2px solid #6c6c6c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
 }
 
 /* Rectangle 24 */
@@ -370,10 +332,10 @@
 
 .search_line_3 {
   position: absolute;
-  width: 193px;
+  width: 256px;
   height: 0px;
-  left: 240px;
-  top: 101px;
+  left: 225px;
+  top: 130px;
 
   border: 2px solid #d9d9d9;
   transform: rotate(90deg);
@@ -402,12 +364,12 @@
 
 /* 배터리 유형 */
 
-.search_battery_type {
+.search_battery_faulty_type {
   position: absolute;
   width: 277.74px;
   height: 37px;
   left: 70px;
-  top: 70px;
+  top: 150px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -420,6 +382,23 @@
   color: #000000;
 }
 
+.search_battery_type {
+  position: absolute;
+  width: 277.74px;
+  height: 37px;
+  left: 70px;
+  top: 85px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
 /* 카메라 번호 */
 
 .search_camera_num {
@@ -427,7 +406,7 @@
   width: 277.74px;
   height: 37px;
   left: 70px;
-  top: 150px;
+  top: 210px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -443,96 +422,12 @@
 
 /* Group 8 */
 
-.search_group_8_3 {
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 550px;
-  top: 13px;
-}
-
-/* 최신 */
-.search_new {
-  position: absolute;
-  width: 100px;
-  height: 35px;
-  left: 1px;
-  top: 1px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #6c6c6c;
-}
-
-/* Rectangle 24 */
-
-.search_rec_24_5 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
-  border: 2px solid #6c6c6c;
-  filter: drop-shadow(0px 4px 4px rgba(29, 10, 10, 0.25));
-  border-radius: 5px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  align-items: center; /* Vertical center alignment */
-  justify-content: center; /* Horizontal center alignment */
-
-  color: #6c6c6c;
-  cursor: pointer; /* Change cursor to pointer on hover */
-}
-
-.search_rec_24_5.clicked {
-  color: #9c17c8;
-}
-/* Group 8 */
-
 .search_group_8_1 {
   position: absolute;
   width: 165px;
   height: 40px;
-  left: 1040px;
+  left: 800px;
   top: 80px;
-}
-
-/* 불량 */
-
-.search_faulty {
-  position: absolute;
-  width: 165px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #6c6c6c;
 }
 
 /* Rectangle 24 */
@@ -546,9 +441,27 @@
   left: 1px;
   top: 1px;
 
+  cursor: pointer; /* Change cursor to pointer on hover */
+
+  color: #6c6c6c;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+  text-align: center;
+
   border: 2px solid #6c6c6c;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+}
+
+.search_rec_24_6.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
 }
 
 /* Group 17 */
@@ -557,29 +470,8 @@
   position: absolute;
   width: 165px;
   height: 40px;
-  left: 800px;
+  left: 550px;
   top: 80px;
-}
-
-/* 정상 */
-
-.search_normal {
-  position: absolute;
-  width: 165px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #6c6c6c;
 }
 
 /* Rectangle 24 */
@@ -593,30 +485,9 @@
   left: 1px;
   top: 1px;
 
-  border: 2px solid #6c6c6c;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 5px;
-}
+  cursor: pointer; /* Change cursor to pointer on hover */
 
-/* Group 11 */
-
-.search_group_11 {
-  position: absolute;
-  width: 165px;
-  height: 40px;
-  left: 550px;
-  top: 80px;
-}
-
-/* 전체 */
-
-.search_all {
-  position: absolute;
-  width: 165px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
+  color: #6c6c6c;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -624,25 +495,17 @@
   line-height: 29px;
   display: flex;
   align-items: center;
+  justify-content: center; /* Center the text horizontally */
   text-align: center;
-
-  color: #6c6c6c;
-}
-
-/* Rectangle 24 */
-
-.search_rec_24_8 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 165px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
 
   border: 2px solid #6c6c6c;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+}
+
+.search_rec_24_7.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
 }
 
 /* Group 11 */
@@ -652,7 +515,7 @@
   width: 165px;
   height: 40px;
   left: 1040px;
-  top: 150px;
+  top: 210px;
 }
 
 /* 3 */
@@ -687,11 +550,28 @@
   left: 1px;
   top: 1px;
 
+  color: #6c6c6c;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+  text-align: center;
+  cursor: pointer; /* Change cursor to pointer on hover */
+
   border: 2px solid #6c6c6c;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+  background-color: white; /* 기본 배경색 설정 */
 }
 
+.search_rec_24_9.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
+}
 /* Group 16 */
 
 .search_group_16 {
@@ -699,7 +579,7 @@
   width: 158px;
   height: 40px;
   left: 800px;
-  top: 150px;
+  top: 210px;
 }
 
 /* 2 */
@@ -734,9 +614,29 @@
   left: 1px;
   top: 1px;
 
+  cursor: pointer; /* Change cursor to pointer on hover */
+
+  color: #6c6c6c;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+  text-align: center;
+
   border: 2px solid #6c6c6c;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+
+  background-color: white;
+}
+
+.search_rec_24_10.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
 }
 
 /* Group 13 */
@@ -745,7 +645,7 @@
   width: 158px;
   height: 40px;
   left: 550px;
-  top: 150px;
+  top: 210px;
 }
 
 /* 1 */
@@ -780,29 +680,7 @@
   left: 1px;
   top: 1px;
 
-  border: 2px solid #6c6c6c;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 5px;
-}
-
-/* Group 9 */
-
-.search_group_9 {
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 800px;
-  top: 13px;
-}
-
-/* 금주 */
-
-.search_abstinence {
-  position: absolute;
-  width: 254.46px;
-  height: 35px;
-  left: 1px;
-  top: 1px;
+  cursor: pointer; /* Change cursor to pointer on hover */
 
   font-family: 'Inter';
   font-style: normal;
@@ -810,48 +688,30 @@
   font-size: 24px;
   line-height: 29px;
   display: flex;
-  align-items: center; /* Vertical center alignment */
-  justify-content: center; /* Horizontal center alignment */
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+  text-align: center;
 
   color: #6c6c6c;
-}
-
-/* Rectangle 24 */
-
-.search_rec_24_12 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 158px;
-  height: 40px;
-  left: 1px;
-  top: 1px;
-
   border: 2px solid #6c6c6c;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
 
-  align-items: center; /* Vertical center alignment */
-  justify-content: center; /* Horizontal center alignment */
+  background-color: white;
 }
 
-.search_rec_24_12.clicked {
-  color: #9c17c8;
+.search_rec_24_11.selected {
+  background-color: rgb(206, 206, 206); /* 선택된 배경색 설정 */
+  color: white; /* 선택된 텍스트 색상 설정 */
 }
+
 /* ~ */
 
 .search_wave {
   position: absolute;
   width: 79.83px;
   height: 40px;
-  left: 1435px;
+  left: 900px;
   top: 15px;
 
   font-family: 'Inter';
@@ -868,13 +728,13 @@
 
 /* 결과 */
 
-.search_result {
+/* .search_result {
   position: absolute;
   width: 1713px;
   height: 504px;
   left: 100px;
   top: 500px;
-}
+} */
 
 /* 결과 */
 .search_result_1 {
@@ -887,7 +747,7 @@
 
 /* Rectangle 26 */
 
-.search_rec_26 {
+/* .search_rec_26 {
   box-sizing: border-box;
 
   position: absolute;
@@ -900,7 +760,7 @@
   border: 2px solid #6c6c6c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-}
+} */
 
 /* Line 5 */
 
@@ -1060,11 +920,11 @@
 /* 번호 */
 
 .search_num {
-  position: absolute;
+  /* position: absolute;
   width: 123px;
   height: 36px;
   left: 100px;
-  top: 20px;
+  top: 20px; */
 
   font-family: 'Inter';
   font-style: normal;
@@ -1199,4 +1059,121 @@
   text-align: center;
 
   color: #000000;
+}
+
+.search_result {
+  position: absolute;
+  width: 1713px;
+  height: 500px;
+  left: 100px;
+  top: 500px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.search_rec_26 {
+  box-sizing: border-box;
+  width: 1713px;
+  height: 500px;
+  border: 2px solid #6c6c6c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  table-layout: fixed; /* 테이블 셀 너비 고정 */
+}
+
+.thTd {
+  padding: 15px;
+  text-align: center;
+  /* border-bottom: 1px solid black; /* 아래쪽 테두리 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  width: 14.28%; /* 7개의 셀이 동일한 너비를 가질 수 있도록 설정 */
+}
+
+table tbody {
+  display: block;
+  max-height: 439px;
+  overflow-y: scroll;
+}
+
+table tbody tr {
+  display: table;
+  width: 100%;
+}
+
+table thead {
+  display: table;
+  width: 98.65%;
+}
+table tr {
+  border-top: 2px solid #6c6c6c;
+  border-bottom: 2px solid #6c6c6c;
+}
+
+table td {
+  border-left: 2px solid #6c6c6c;
+}
+
+table td:first-child {
+  border-left: none; /* 첫 번째 td는 border-left 없음 */
+}
+
+table th {
+  border-left: 2px solid #6c6c6c;
+}
+
+table th:first-child {
+  border-left: none; /* 첫 번째 td는 border-left 없음 */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 70px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: left;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-image {
+  width: 500px;
+  height: auto;
+  max-width: 500px; /* 최대 너비를 300px로 제한 */
+  border-radius: 10px; /* 모서리를 둥글게 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  margin-bottom: 15px; /* 이미지 아래 여백 */
+  object-fit: cover;
+}
+
+.close-button {
+  position: absolute; /* 절대 위치 지정 */
+  top: 10px; /* 상단에서 10px 떨어지게 설정 */
+  right: 10px; /* 오른쪽에서 10px 떨어지게 설정 */
+  width: 30px; /* 버튼 너비 */
+  height: 30px; /* 버튼 높이 */
+  font-size: 20px; /* X자 크기 */
+  padding: 0; /* 내부 여백 제거 */
+  background-color: rgb(255, 255, 255); /* 버튼 배경색 */
+  color: #c09d9d; /* X자 색상 */
 }

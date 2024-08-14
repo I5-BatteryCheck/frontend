@@ -36,11 +36,41 @@
   height: 335.12px;
   left: 1px;
   top: 1px;
-
-  background: #ffffff;
+  background-color: white;
   border-radius: 15px;
 }
 
+.temp_chart {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 650px;
+  height: 290px;
+}
+
+.humidity_chart {
+  position: absolute;
+  left: 760px;
+  top: 50px;
+  width: 650px;
+  height: 290px;
+}
+
+.illuminance_chart {
+  position: absolute;
+  left: 50px;
+  top: 420px;
+  width: 650px;
+  height: 290px;
+}
+
+.gas_chart {
+  position: absolute;
+  left: 760px;
+  top: 420px;
+  width: 650px;
+  height: 290px;
+}
 /* Rectangle 31 */
 
 .envir_rect_31 {
@@ -84,11 +114,10 @@
 
 .glance_temp {
   position: absolute;
-  width: 200px;
-  height: 50px;
+  width: 310px;
+  height: 60px;
   left: 10px;
   top: 1px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -109,11 +138,7 @@
   top: 60px;
   background-color: red;
 }
-.temp_chart {
-  position: absolute;
-  left: 1px;
-  top: 60px;
-}
+
 /* ▽ 일별 습도 */
 
 .glance_humi {
@@ -160,7 +185,7 @@
 
 .glance_gas {
   position: absolute;
-  width: 176.38px;
+  width: 230px;
   height: 70.46px;
   left: 1px;
   top: 1px;
@@ -253,9 +278,8 @@
   position: absolute;
   width: 220px;
   height: 97px;
-  left: 150px;
+  left: 190px;
   top: 30px;
-  background-color: red;
 }
 
 /* 20°C */
@@ -279,12 +303,10 @@
   color: #000000;
 }
 
-/* 🌡️ */
-
-.envir_temp_emoji {
+.envir_20_1 {
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: 196px;
+  height: 97px;
   left: 1px;
   top: 1px;
 
@@ -294,21 +316,20 @@
   font-size: 64px;
   line-height: 77px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
 
-  color: #000000;
+  color: red;
 }
 
 /* Group 25 */
 
 .envir_group_25 {
   position: absolute;
-  width: 200px;
+  width: 220px;
   height: 97px;
-  left: 500px;
+  left: 570px;
   top: 30px;
-  background-color: blue;
 }
 
 /* 14% */
@@ -332,38 +353,7 @@
   color: #000000;
 }
 
-/* 💧 */
-.envir_water_emoji {
-  position: absolute;
-  width: 59px;
-  height: 60px;
-  left: 1px;
-  top: 1px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 77px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #000000;
-}
-
-/* Group 26 */
-
-.envir_group_26 {
-  position: absolute;
-  width: 260px;
-  height: 97px;
-  left: 800px;
-  top: 30px;
-}
-
-/* 80% */
-.envir_80 {
+.envir_14_1 {
   position: absolute;
   width: 196px;
   height: 97px;
@@ -379,16 +369,24 @@
   align-items: center;
   text-align: center;
 
-  color: #ff4f4f;
-  background-color: yellow;
+  color: red;
 }
 
-/* 💡 */
+/* Group 26 */
 
-.envir_light_imoji {
+.envir_group_26 {
   position: absolute;
-  width: 70px;
-  height: 74px;
+  width: 220px;
+  height: 97px;
+  left: 950px;
+  top: 30px;
+}
+
+/* 80% */
+.envir_80 {
+  position: absolute;
+  width: 220px;
+  height: 97px;
   left: 1px;
   top: 1px;
 
@@ -401,7 +399,27 @@
   align-items: center;
   text-align: center;
 
-  color: #000000;
+  color: #ff4f4f;
+}
+
+/* 80%_1 */
+.envir_80_1 {
+  position: absolute;
+  width: 220px;
+  height: 97px;
+  left: 1px;
+  top: 1px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
 }
 
 /* Group 27 */
@@ -410,9 +428,8 @@
   position: absolute;
   width: 230px;
   height: 97px;
-  left: 1100px;
+  left: 1300px;
   top: 30px;
-  background-color: orange;
 }
 
 /* 0.0% */
@@ -436,11 +453,10 @@
   color: #000000;
 }
 
-/* ☣️ */
-.envir_hot_emoji {
+.envir_0_1 {
   position: absolute;
-  width: 101px;
-  height: 96px;
+  width: 196px;
+  height: 97px;
   left: 1px;
   top: 1px;
 
@@ -453,9 +469,8 @@
   align-items: center;
   text-align: center;
 
-  color: #000000;
+  color: #ff4f4f;
 }
-
 /* 최적화 지수 */
 
 .optimization_index {
@@ -531,10 +546,10 @@
 
 .envir_100 {
   position: absolute;
-  width: 134px;
-  height: 41px;
-  left: 85px;
-  top: 20px;
+  width: 170px;
+  height: 500px;
+  left: 50px;
+  top: 115px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -546,4 +561,33 @@
   text-align: center;
 
   color: #000000;
+}
+
+/* Modal overlay styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Slightly dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears on top of other elements */
+}
+
+/* Modal box styling */
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1001;
+}
+
+/* Optional: Body styling when modal is active */
+.body-modal-active {
+  overflow: hidden; /* Prevent scrolling when modal is open */
 }

@@ -3,7 +3,7 @@
 .produc_camera_container {
   position: absolute;
   width: 1337px;
-  height: 848px;
+  height: 900px;
   left: 73px;
   top: 147px;
 }
@@ -13,7 +13,7 @@
 .produc_rectangle_4 {
   position: absolute;
   width: 1337px;
-  height: 848px;
+  height: 900px;
   left: 1px;
   top: 1px;
 
@@ -21,64 +21,96 @@
   border-radius: 15px;
 }
 
-/* Rectangle 10 */
-
-.produc_rectangle_10 {
-  position: absolute;
-  width: 343px;
-  height: 250px;
-  left: 50px;
-  top: 500px;
-
-  background: #d9d9d9;
-}
-
 /* Rectangle 11 */
 
 .produc_rectangle_11 {
   position: absolute;
-  width: 343px;
-  height: 250px;
-  left: 500px;
-  top: 100px;
+  width: 830px;
+  height: 450px;
+  left: 35px;
+  top: 50px;
 
   background: #d9d9d9;
 }
 
 /* Rectangle 13 */
 
-.produc_rectangle_13 {
+.result-container {
   position: absolute;
-  width: 343px;
-  height: 250px;
-  left: 950px;
-  top: 100px;
+  width: 370px;
+  height: 410px;
+  left: 900px;
+  top: 50px;
+  padding: 15px;
+  background: #ffefef;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.result-section {
+  margin-bottom: 10px;
+}
+
+.result-section h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.result-section p {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.result-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Rectangle 10 */
+
+.produc_rectangle_10 {
+  position: absolute;
+  width: 400px;
+  height: 330px;
+  left: 30px;
+  top: 550px;
 
   background: #d9d9d9;
+  object-fit: cover;
 }
 
 /* Rectangle 12 */
 
 .produc_rectangle_12 {
   position: absolute;
-  width: 343px;
-  height: 250px;
-  left: 500px;
-  top: 500px;
+  left: 465px;
+  width: 400px;
+  height: 330px;
+  top: 550px;
 
   background: #d9d9d9;
+  object-fit: cover;
 }
 
 /* Rectangle 14 */
 
 .produc_rectangle_14 {
   position: absolute;
-  width: 343px;
-  height: 250px;
-  left: 950px;
-  top: 500px;
+  left: 900px;
+  width: 400px;
+  height: 330px;
+  top: 550px;
 
   background: #d9d9d9;
+  object-fit: cover;
 }
 
 /* Rectangle 15 */
@@ -95,10 +127,11 @@
 
 .cam1_img {
   position: absolute;
-  width: 343px;
-  height: 250px;
+  width: 830px;
+  height: 450px;
   left: 1px;
   top: 1px;
+  object-fit: cover;
 }
 
 /* CAM_1 */
@@ -125,11 +158,10 @@
 
 .produc_cam_2 {
   position: absolute;
-  width: 162px;
-  height: 50px;
-  left: 500px;
-  top: 50px;
-
+  width: 190px;
+  height: 40px;
+  left: 40px;
+  top: 1px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -147,16 +179,18 @@
   position: absolute;
   width: 162px;
   height: 50px;
-  left: 950px;
-  top: 50px;
+  left: 880px;
+  top: 1px;
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   line-height: 29px;
+
   display: flex;
-  align-items: flex-end;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
 
   color: #000000;
 }
@@ -167,8 +201,8 @@
   position: absolute;
   width: 162px;
   height: 50px;
-  left: 50px;
-  top: 450px;
+  left: 35px;
+  top: 495px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -187,8 +221,8 @@
   position: absolute;
   width: 162px;
   height: 50px;
-  left: 500px;
-  top: 450px;
+  left: 470px;
+  top: 495px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -207,8 +241,8 @@
   position: absolute;
   width: 162px;
   height: 50px;
-  left: 950px;
-  top: 450px;
+  left: 910px;
+  top: 495px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -240,10 +274,36 @@
   left: 1px;
   top: 1px;
 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
   background: #ffffff;
   border-radius: 15px;
 }
 
+.produc_time_active {
+  position: absolute;
+  width: 120px;
+  height: 53px;
+  left: 50px;
+  top: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border-radius: 15px;
+}
 /* 작동 시간 00:00 */
 
 .produc_active_time_0 {
@@ -256,11 +316,12 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 35px;
   line-height: 29px;
   display: flex;
   align-items: center;
-  text-align: left;
+  justify-content: flex-end; /* 추가된 부분 */
+  text-align: right;
 
   color: #000000;
 }
@@ -443,6 +504,7 @@
   line-height: 29px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   color: #000000;
 }
@@ -462,6 +524,8 @@
   font-size: 73px;
   line-height: 88px;
   display: flex;
+
+  justify-content: center;
   align-items: center;
 
   color: #000000;
@@ -523,23 +587,17 @@
 
 .produc_rectangle_17 {
   position: absolute;
-  width: 256px;
-  height: 29px;
+  width: 350px;
+  height: 1px;
   left: 20px;
-  top: 50px;
-
-  background: #6fe5ff;
+  top: 1px;
 }
 
 /* Rectangle 18 */
 .produc_rectangle_18 {
   position: absolute;
-  width: 110px;
-  height: 29px;
-  left: 277px;
-  top: 50px;
-
-  background: #ff4f4f;
+  left: 0px;
+  top: 20px;
 }
 
 /* 70% */
@@ -689,4 +747,43 @@
   position: absolute;
   width: 49px;
   height: 49px;
+}
+
+.produc_goal_chart {
+  position: absolute;
+  width: 176px;
+  height: 172px;
+  left: 12px;
+  top: 15px;
+}
+
+/* Production.css */
+
+/* Modal overlay styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Slightly dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears on top of other elements */
+}
+
+/* Modal box styling */
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1001;
+}
+
+/* Optional: Body styling when modal is active */
+.body-modal-active {
+  overflow: hidden; /* Prevent scrolling when modal is open */
 }

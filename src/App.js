@@ -9,7 +9,8 @@ import Production from './Production.js';
 import MenuBar from './MenuBar.js';
 import Environ from './Environ.js';
 import Search from './Search.js';
-
+import Error from './Error.js';
+import Search_detail from './search_detail.js';
 function App() {
   let navigate = useNavigate();
   return (
@@ -44,6 +45,22 @@ function App() {
           element={
             <>
               <Search />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/error"
+          element={
+            <>
+              <Error />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/search_detail"
+          element={
+            <>
+              <Search_detail />
             </>
           }
         ></Route>

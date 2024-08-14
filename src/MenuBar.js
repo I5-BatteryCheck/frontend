@@ -52,7 +52,7 @@ const MenuBar = () => {
           <div className="static_rectagle_2"></div>
           <div className="static_rectagle_3"></div>
           <div>
-            <button className="static_login">로그인</button>
+            <button className="static_login"></button>
           </div>
         </div>
       </div>
