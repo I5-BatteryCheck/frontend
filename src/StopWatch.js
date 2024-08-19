@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { start, pause, reset, tick } from './store';
+import { start, pause, reset, tick, setBatteryId } from './store';
+import axios from 'axios';
 
 const formatTime = (time) => {
   const getSeconds = `0${time % 60}`.slice(-2);
@@ -15,6 +16,29 @@ const Stopwatch = () => {
   const { time, isActive } = useSelector((state) => state.stopwatch);
   const countRef = useRef(null);
 
+  const quantity = useSelector((state) => state.quantity);
+  const batteryId = useSelector((state) => state.batteryId);
+
+  useEffect(() => {
+    const fetchBatteryStatus = async () => {
+      try {
+        const response = await axios.get('http://52.79.89.88:8002/api/picture/web');
+        if (response.data.success) {
+          dispatch(setBatteryId(response.data.data.batteryId));
+          console.log(response);
+        }
+      } catch (error) {
+        console.error('Error fetching battery status:', error);
+      }
+    };
+
+    fetchBatteryStatus(); // Initial fetch
+
+    const intervalId = setInterval(fetchBatteryStatus, 1000); // Fetch every 1 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, [dispatch]);
+
   useEffect(() => {
     if (isActive) {
       countRef.current = setInterval(() => {
@@ -24,6 +48,13 @@ const Stopwatch = () => {
 
     return () => clearInterval(countRef.current);
   }, [isActive, dispatch]);
+
+  useEffect(() => {
+    if (quantity === batteryId && isActive) {
+      clearInterval(countRef.current);
+      dispatch(pause());
+    }
+  }, [quantity, batteryId, isActive, dispatch]);
 
   const handleStart = () => {
     dispatch(start());

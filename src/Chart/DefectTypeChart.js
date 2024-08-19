@@ -68,7 +68,7 @@ const DefectTypeChart = () => {
         label: '복합',
         data: both,
         fill: false,
-        borderColor: 'yellow',
+        borderColor: 'yellowgreen',
         tension: 0.1,
       },
     ],

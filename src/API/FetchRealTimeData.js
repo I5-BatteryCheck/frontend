@@ -54,60 +54,52 @@ const FetchRealTimeData = () => {
         <div className="envir_group_24">
           {temp > 28 ? (
             <div className="envir_20_1">
-              🌡️
-              <br />
-              {temp}°C
+              <p> 🌡️</p>
+              <p style={{ marginLeft: '20px' }}>{temp}°C</p>
             </div>
           ) : (
             <div className="envir_20">
-              🌡️
-              <br />
-              {temp}°C
+              <p> 🌡️</p>
+              <p style={{ marginLeft: '20px' }}>{temp}°C</p>
             </div>
           )}
         </div>
         <div className="envir_group_25">
           {humidity > 75 ? (
             <div className="envir_14_1">
-              💧
-              <br />
-              {humidity}%
+              <p> 💧</p>
+              <p style={{ marginLeft: '20px' }}>{humidity}%</p>
             </div>
           ) : (
             <div className="envir_14">
-              💧
-              <br />
-              {humidity}%
+              <p> 💧</p>
+              <p style={{ marginLeft: '20px' }}>{humidity}%</p>
             </div>
           )}
         </div>
         <div className="envir_group_26">
           {lightLevel <= 2000 || lightLevel > 4000 ? (
             <div className="envir_80">
-              💡
-              <br />
-              {lightLevel}lx
+              <p> 💡</p>
+              <p style={{ marginLeft: '20px' }}>{lightLevel}lx</p>
             </div>
           ) : (
             <div className="envir_80_1">
-              💡
-              <br />
-              {lightLevel}lx
+              <p> 💡</p>
+              <p style={{ marginLeft: '20px' }}>{lightLevel}lx</p>
             </div>
           )}
         </div>
         <div className="envir_group_27">
           {gas > 40 ? (
             <div className="envir_0_1">
-              ☣️
-              <br />
-              {gas}%
+              <p> ☣️</p>
+              <p style={{ marginLeft: '20px' }}>{gas}%</p>
             </div>
           ) : (
             <div className="envir_0">
-              ☣️
-              <br />
-              {gas}%
+              <p> ☣️</p>
+              <p style={{ marginLeft: '20px' }}>{gas}%</p>
             </div>
           )}
         </div>

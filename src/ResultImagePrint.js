@@ -33,7 +33,7 @@ const ResultImagePrint = () => {
 
     fetchPictures(); // 초기 데이터 로딩
 
-    const intervalId = setInterval(fetchPictures, 1000); // 1초마다 데이터 요청
+    const intervalId = setInterval(fetchPictures, 500); // 1초마다 데이터 요청
 
     // 컴포넌트 언마운트 시 타이머 클리어
     return () => clearInterval(intervalId);

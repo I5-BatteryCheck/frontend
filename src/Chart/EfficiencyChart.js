@@ -27,9 +27,7 @@ const EfficiencyChart = () => {
         setTemp(data.Temperature);
         setHumidity(data.humidity);
         setLightLevel(data.lightLevel);
-        const gas = parseFloat(data.gas); // 문자열을 부동 소수점 숫자로 변환
-        const result = ((gas / 4500) * 100).toFixed(1); // 변환된 값을 사용하여 계산
-        setGas(result);
+        setGas(data.gas);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -37,7 +35,7 @@ const EfficiencyChart = () => {
 
     fetchData(); // 초기 데이터 로드
 
-    const intervalId = setInterval(fetchData, 2000); // ..2초마다 데이터 갱신
+    const intervalId = setInterval(fetchData, 200); // ..2초마다 데이터 갱신
 
     return () => clearInterval(intervalId); // 컴포넌트 언마운트 시 interval 정리
   }, []);

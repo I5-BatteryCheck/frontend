@@ -19,7 +19,7 @@ const VibrationChart = () => {
     <>
       <div className="envir_rect_29">
         <div className="glance_gas">
-          <span style={{ fontSize: '35px' }}>실시간 진동</span>
+          <span style={{ fontSize: '35px', marginLeft: '20px' }}>실시간 진동</span>
         </div>
       </div>
       <div className="gas_chart">
